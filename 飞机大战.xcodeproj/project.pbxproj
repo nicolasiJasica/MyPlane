@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6C93901C50C76D000CFF43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C938F1C50C76D000CFF43 /* AppDelegate.swift */; };
+		CD6C93941C50C76D000CFF43 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93931C50C76D000CFF43 /* GameScene.swift */; };
+		CD6C93961C50C76D000CFF43 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93951C50C76D000CFF43 /* GameViewController.swift */; };
+		CD6C93991C50C76D000CFF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6C93971C50C76D000CFF43 /* Main.storyboard */; };
+		CD6C939B1C50C76D000CFF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6C939A1C50C76D000CFF43 /* Assets.xcassets */; };
+		CD6C939E1C50C76D000CFF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6C939C1C50C76D000CFF43 /* LaunchScreen.storyboard */; };
+		CD6C93A91C50C76D000CFF43 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93A81C50C76D000CFF43 /* ____Tests.swift */; };
+		CD6C93B41C50C76D000CFF43 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93B31C50C76D000CFF43 /* ____UITests.swift */; };
+		CD6C93C41C50D41E000CFF43 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6C93C31C50D41E000CFF43 /* launchImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6C93A51C50C76D000CFF43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C93841C50C76D000CFF43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C938B1C50C76D000CFF43;
+			remoteInfo = "飞机大战";
+		};
+		CD6C93B01C50C76D000CFF43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C93841C50C76D000CFF43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C938B1C50C76D000CFF43;
+			remoteInfo = "飞机大战";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6C938C1C50C76D000CFF43 /* 飞机大战.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "飞机大战.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C938F1C50C76D000CFF43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6C93931C50C76D000CFF43 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CD6C93951C50C76D000CFF43 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CD6C93981C50C76D000CFF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6C939A1C50C76D000CFF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6C939D1C50C76D000CFF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6C939F1C50C76D000CFF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C93A41C50C76D000CFF43 /* 飞机大战Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "飞机大战Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C93A81C50C76D000CFF43 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		CD6C93AA1C50C76D000CFF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C93AF1C50C76D000CFF43 /* 飞机大战UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "飞机大战UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C93B31C50C76D000CFF43 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		CD6C93B51C50C76D000CFF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C93C31C50D41E000CFF43 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6C93891C50C76D000CFF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93A11C50C76D000CFF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93AC1C50C76D000CFF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6C93831C50C76D000CFF43 = {
+			isa = PBXGroup;
+			children = (
+				CD6C938E1C50C76D000CFF43 /* 飞机大战 */,
+				CD6C93A71C50C76D000CFF43 /* 飞机大战Tests */,
+				CD6C93B21C50C76D000CFF43 /* 飞机大战UITests */,
+				CD6C938D1C50C76D000CFF43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6C938D1C50C76D000CFF43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C938C1C50C76D000CFF43 /* 飞机大战.app */,
+				CD6C93A41C50C76D000CFF43 /* 飞机大战Tests.xctest */,
+				CD6C93AF1C50C76D000CFF43 /* 飞机大战UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6C938E1C50C76D000CFF43 /* 飞机大战 */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93C31C50D41E000CFF43 /* launchImage.png */,
+				CD6C938F1C50C76D000CFF43 /* AppDelegate.swift */,
+				CD6C93931C50C76D000CFF43 /* GameScene.swift */,
+				CD6C93951C50C76D000CFF43 /* GameViewController.swift */,
+				CD6C93971C50C76D000CFF43 /* Main.storyboard */,
+				CD6C939A1C50C76D000CFF43 /* Assets.xcassets */,
+				CD6C939C1C50C76D000CFF43 /* LaunchScreen.storyboard */,
+				CD6C939F1C50C76D000CFF43 /* Info.plist */,
+			);
+			path = "飞机大战";
+			sourceTree = "<group>";
+		};
+		CD6C93A71C50C76D000CFF43 /* 飞机大战Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93A81C50C76D000CFF43 /* ____Tests.swift */,
+				CD6C93AA1C50C76D000CFF43 /* Info.plist */,
+			);
+			path = "飞机大战Tests";
+			sourceTree = "<group>";
+		};
+		CD6C93B21C50C76D000CFF43 /* 飞机大战UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93B31C50C76D000CFF43 /* ____UITests.swift */,
+				CD6C93B51C50C76D000CFF43 /* Info.plist */,
+			);
+			path = "飞机大战UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6C938B1C50C76D000CFF43 /* 飞机大战 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C93B81C50C76D000CFF43 /* Build configuration list for PBXNativeTarget "飞机大战" */;
+			buildPhases = (
+				CD6C93881C50C76D000CFF43 /* Sources */,
+				CD6C93891C50C76D000CFF43 /* Frameworks */,
+				CD6C938A1C50C76D000CFF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "飞机大战";
+			productName = "飞机大战";
+			productReference = CD6C938C1C50C76D000CFF43 /* 飞机大战.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6C93A31C50C76D000CFF43 /* 飞机大战Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C93BB1C50C76D000CFF43 /* Build configuration list for PBXNativeTarget "飞机大战Tests" */;
+			buildPhases = (
+				CD6C93A01C50C76D000CFF43 /* Sources */,
+				CD6C93A11C50C76D000CFF43 /* Frameworks */,
+				CD6C93A21C50C76D000CFF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6C93A61C50C76D000CFF43 /* PBXTargetDependency */,
+			);
+			name = "飞机大战Tests";
+			productName = "飞机大战Tests";
+			productReference = CD6C93A41C50C76D000CFF43 /* 飞机大战Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6C93AE1C50C76D000CFF43 /* 飞机大战UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C93BE1C50C76D000CFF43 /* Build configuration list for PBXNativeTarget "飞机大战UITests" */;
+			buildPhases = (
+				CD6C93AB1C50C76D000CFF43 /* Sources */,
+				CD6C93AC1C50C76D000CFF43 /* Frameworks */,
+				CD6C93AD1C50C76D000CFF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6C93B11C50C76D000CFF43 /* PBXTargetDependency */,
+			);
+			name = "飞机大战UITests";
+			productName = "飞机大战UITests";
+			productReference = CD6C93AF1C50C76D000CFF43 /* 飞机大战UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6C93841C50C76D000CFF43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = weiliangMac;
+				TargetAttributes = {
+					CD6C938B1C50C76D000CFF43 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD6C93A31C50C76D000CFF43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6C938B1C50C76D000CFF43;
+					};
+					CD6C93AE1C50C76D000CFF43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6C938B1C50C76D000CFF43;
+					};
+				};
+			};
+			buildConfigurationList = CD6C93871C50C76D000CFF43 /* Build configuration list for PBXProject "飞机大战" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6C93831C50C76D000CFF43;
+			productRefGroup = CD6C938D1C50C76D000CFF43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6C938B1C50C76D000CFF43 /* 飞机大战 */,
+				CD6C93A31C50C76D000CFF43 /* 飞机大战Tests */,
+				CD6C93AE1C50C76D000CFF43 /* 飞机大战UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6C938A1C50C76D000CFF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93C41C50D41E000CFF43 /* launchImage.png in Resources */,
+				CD6C939E1C50C76D000CFF43 /* LaunchScreen.storyboard in Resources */,
+				CD6C939B1C50C76D000CFF43 /* Assets.xcassets in Resources */,
+				CD6C93991C50C76D000CFF43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93A21C50C76D000CFF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93AD1C50C76D000CFF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6C93881C50C76D000CFF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93941C50C76D000CFF43 /* GameScene.swift in Sources */,
+				CD6C93961C50C76D000CFF43 /* GameViewController.swift in Sources */,
+				CD6C93901C50C76D000CFF43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93A01C50C76D000CFF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93A91C50C76D000CFF43 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93AB1C50C76D000CFF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93B41C50C76D000CFF43 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6C93A61C50C76D000CFF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6C938B1C50C76D000CFF43 /* 飞机大战 */;
+			targetProxy = CD6C93A51C50C76D000CFF43 /* PBXContainerItemProxy */;
+		};
+		CD6C93B11C50C76D000CFF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6C938B1C50C76D000CFF43 /* 飞机大战 */;
+			targetProxy = CD6C93B01C50C76D000CFF43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6C93971C50C76D000CFF43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C93981C50C76D000CFF43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6C939C1C50C76D000CFF43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C939D1C50C76D000CFF43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6C93B61C50C76D000CFF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6C93B71C50C76D000CFF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6C93B91C50C76D000CFF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "飞机大战/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasi.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD6C93BA1C50C76D000CFF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "飞机大战/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasi.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD6C93BC1C50C76D000CFF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "飞机大战Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasi.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/飞机大战.app/飞机大战";
+			};
+			name = Debug;
+		};
+		CD6C93BD1C50C76D000CFF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "飞机大战Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasi.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/飞机大战.app/飞机大战";
+			};
+			name = Release;
+		};
+		CD6C93BF1C50C76D000CFF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "飞机大战UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasi.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "飞机大战";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD6C93C01C50C76D000CFF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "飞机大战UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasi.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "飞机大战";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6C93871C50C76D000CFF43 /* Build configuration list for PBXProject "飞机大战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93B61C50C76D000CFF43 /* Debug */,
+				CD6C93B71C50C76D000CFF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C93B81C50C76D000CFF43 /* Build configuration list for PBXNativeTarget "飞机大战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93B91C50C76D000CFF43 /* Debug */,
+				CD6C93BA1C50C76D000CFF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD6C93BB1C50C76D000CFF43 /* Build configuration list for PBXNativeTarget "飞机大战Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93BC1C50C76D000CFF43 /* Debug */,
+				CD6C93BD1C50C76D000CFF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD6C93BE1C50C76D000CFF43 /* Build configuration list for PBXNativeTarget "飞机大战UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93BF1C50C76D000CFF43 /* Debug */,
+				CD6C93C01C50C76D000CFF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6C93841C50C76D000CFF43 /* Project object */;
+}
